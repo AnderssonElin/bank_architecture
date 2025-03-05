@@ -5,8 +5,8 @@ This repository contains an **Entity-Relationship Diagram (ERD)** for a banking 
 The database is designed to manage customer information, loans, accounts, transactions, and related data for a banking application.
 
 ## Images
-- **ERD_conceptual**: A high-level representation of key entities and their relationships.
-- **ERD**: A detailed relational database model defining tables, attributes, primary keys, foreign keys, and relationships for a banking system.
+- ![**ERD_conceptual**](https://github.com/AnderssonElin/bank_architecture/blob/main/ERD_conceptual.png): A high-level representation of key entities and their relationships. ![Alt text](images/image.png)
+- ![**ERD**](https://github.com/AnderssonElin/bank_architecture/blob/main/ERD.png): A detailed relational database model defining tables, attributes, primary keys, foreign keys, and relationships for a banking system.
 
 ## Tables
 - **Customer**: Stores customer details.
