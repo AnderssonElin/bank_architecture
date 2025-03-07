@@ -1,42 +1,42 @@
 # Bank ERD and Database
 
 ## Overview
-Detta repository innehåller en **Entity-Relationship Diagram (ERD)** för ett banksystem, skapad i **draw.io**. Diagrammet representerar strukturen för en relationsdatabas med tabeller och deras relationer.
-Databasen är designad för att hantera kundinformation, lån, konton, transaktioner och relaterad data för en bankapplikation.
+This repository contains an **Entity-Relationship Diagram (ERD)** for a banking system, created in **draw.io**. The diagram represents the structure of a relational database with tables and their relationships.
+The database is designed to manage customer information, loans, accounts, transactions, and related data for a banking application.
 
-## Projektstruktur
-- **images/**: Innehåller ERD-diagram och konceptuella bilder
-- **sql/**: Innehåller alla SQL-filer
-  - **sql/tables/**: SQL-filer för att skapa databastabeller
-  - **sql/data/**: SQL-filer för att infoga data
-  - **sql/scripts/**: SQL-skript för att köra hela databasetableringen
+## Project Structure
+- **images/**: Contains ERD diagrams and conceptual images
+- **sql/**: Contains all SQL files
+  - **sql/tables/**: SQL files for creating database tables
+  - **sql/data/**: SQL files for inserting data
+  - **sql/scripts/**: SQL scripts for running the entire database setup
 
 ## Images
-- **ERD_conceptual**: En övergripande representation av nyckelentiteter och deras relationer.
-- **ERD**: En detaljerad relationsdatabasmodell som definierar tabeller, attribut, primärnycklar, främmande nycklar och relationer för ett banksystem.
+- **ERD_conceptual**: A high-level representation of key entities and their relationships.
+- **ERD**: A detailed relational database model defining tables, attributes, primary keys, foreign keys, and relationships for a banking system.
 
 ## Tables
-- **Customer**: Lagrar kunduppgifter.
-- **Login**: Hanterar kundinloggningsinformation.
-- **LogInRecord**: Registrerar inloggningsaktiviteter.
-- **Loan**: Innehåller lånedetaljer.
-- **LoanInvoice**: Hanterar lånefakturor.
-- **Account**: Lagrar kontoinformation.
-- **Transaction**: Registrerar transaktioner mellan konton.
-- **Card**: Hanterar kortinformation.
-- **CreditCard**: Innehåller kreditkortsinformation.
-- **CreditCardInvoice**: Hanterar kreditkortsfakturor.
-- **PinCode**: Lagrar PIN-koder för kort.
-- **Disposition**: Kopplar kunder till deras konton, lån och kort.
+- **Customer**: Stores customer details.
+- **Login**: Manages customer login information.
+- **LogInRecord**: Records login activities.
+- **Loan**: Contains loan details.
+- **LoanInvoice**: Manages loan invoices.
+- **Account**: Stores account information.
+- **Transaction**: Records transactions between accounts.
+- **Card**: Manages card information.
+- **CreditCard**: Contains credit card details.
+- **CreditCardInvoice**: Manages credit card invoices.
+- **PinCode**: Stores PIN codes for cards.
+- **Disposition**: Links customers to their accounts, loans, and cards.
 
 ## Usage
-För att konfigurera databasen, kör SQL-skripten i lämplig ordning för att skapa tabeller och infoga initial data.
+To set up the database, run the SQL scripts in the appropriate order to create tables and insert initial data.
 
 ## Running the Database Setup
 
-För att konfigurera bank_database kan du köra `sql/scripts/RunAll.sql`-skriptet. Detta skript kommer att skapa databasen, alla nödvändiga tabeller och infoga initial data i ett svep.
+To set up the bank_database, you can run the `sql/scripts/RunAll.sql` script. This script will create the database, all necessary tables, and insert initial data in one go.
 
 ### Instructions:
-1. Öppna ditt SQL-hanteringsverktyg.
-2. Anslut till din SQL-server.
-3. Kör `sql/scripts/RunAll.sql`-skriptet för att automatiskt köra alla kommandon. 
+1. Open your SQL management tool.
+2. Connect to your SQL server.
+3. Run the `sql/scripts/RunAll.sql` script to execute all commands automatically. 
