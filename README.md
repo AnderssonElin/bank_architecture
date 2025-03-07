@@ -1,4 +1,4 @@
-# bank_ERD_and_database
+# Bank ERD and Database
 
 ## Overview
 Detta repository innehåller en **Entity-Relationship Diagram (ERD)** för ett banksystem, skapad i **draw.io**. Diagrammet representerar strukturen för en relationsdatabas med tabeller och deras relationer.
